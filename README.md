@@ -1,14 +1,14 @@
 # Ingenium
 <img src="https://user-images.githubusercontent.com/63234184/230444864-207764ac-ad80-42db-94da-6121c34f0117.png">
 
-A technical demonstration on Ingenium platform's NFT Certification minting application, using Ethereum's ERC-721 based Solidity smart contract.
+A technical demonstration on Ingenium platform's NFT Certification minting application, using Ethereum's ERC721 based Solidity smart contract.
 <br>Submission for the [hackUST2023](https://hackust.agorize.com/en/challenges/hackust-2023) hackathon powered by OKX.
 
 ## 💡 Description
-The current demonstration focuses on the application where companies and event organizers could mint ERC-721 based certifications and send it to respective individuals.
+The current demonstration focuses on the application where companies and event organizers could mint ERC721 based certifications and send it to respective individuals.
 
 ### 🤔 What can be done?
-Using this application, you can create basic ERC-721 based certifications with the given details:
+Using this application, you can create basic ERC721 based certifications with the given details:
 * Program title (xxx Internship Program, xxx Hackathon 2023, etc.)
 * Program organizer (Organizing company name)
 * Start date
@@ -16,7 +16,7 @@ Using this application, you can create basic ERC-721 based certifications with t
 * Name (Name of the person in subject)
 * Role (Role of the person in subject)
 
-The minted ERC-721 certificates can then be sent to different blockchain wallet addresses. Do note that each token is only able to be transferred once!
+The minted ERC721 certificates can then be sent to different blockchain wallet addresses. Do note that each token is only able to be transferred once!
 
 ## 💻 Running The Code
 ### 🌏 Environment Setup
