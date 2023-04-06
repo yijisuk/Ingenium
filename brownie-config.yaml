@@ -1,0 +1,18 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.8.2
+
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.8.2'
+
+wallets:
+  from_key: "0xd0e7a1bb984a0401976e6582b6f6654bd9bdada0026593331269da8b5023c12d"
+  from_mnemonic: ${MNEMONIC}
+
+networks:
+  default: development
+  goerli:
+    vrf_coordinator: '0x2Ca8E0C643bDe4C2E08ab1fA0da3401AdAD7734D'
+    link_token: '0x326C977E6efc84E512bB9C30f76E30c160eD06FB'
+    keyhash: '0x79d3d8832d904592c0bf9818b621522c988bb8b0c05cdc3b15aea1b6e8db0c15'
